@@ -5,9 +5,9 @@ int main(void) {
   unsigned int number;
   scanf("%u", &number);
   fatorial = fat(number);
-  printf("%u! = %lu", number, fatorial);
+  printf("%u! = %lu\n", number, fatorial);
 }
 
 unsigned long int fat( unsigned int n){
-  return 0;
+  	return n * (n == 1 ? 1 : fat(n - 1));
 }
