@@ -1,2 +1,2 @@
 language = "c"
-run = "clang-7 -pthread -lm -o q3/main q3/main.c && ./q3/main"
+run = "clang-7 -pthread -lm -o q4/main q4/main.c && ./q4/main"
