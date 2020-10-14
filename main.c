@@ -6,6 +6,7 @@ int main(void) {
   scanf("%u", &number);
   fatorial = fat(number);
   printf("%u! = %lu\n", number, fatorial);
+  return 0;
 }
 
 unsigned long int fat( unsigned int n){
