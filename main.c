@@ -1,14 +1,6 @@
 #include <stdio.h>
-unsigned long int fat( unsigned int n);
 int main(void) {
-  unsigned long int fatorial;
-  unsigned int number;
-  scanf("%u", &number);
-  fatorial = fat(number);
-  printf("%u! = %lu\n", number, fatorial);
-  return 0;
-}
-
-unsigned long int fat( unsigned int n){
-  	return n * (n == 1 ? 1 : fat(n - 1));
+	char filename[30] = "nome_do_arquivo";
+  	printf("Para executar algum dos arquivos, execute:\nclang-7 -pthread -lm -o %s %s.c && ./%s\n", filename, filename, filename);
+  	return 0;
 }
