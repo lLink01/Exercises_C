@@ -1,2 +1,2 @@
-language = "clang"
+language = "c"
 run = "clang-7 -pthread -lm -o q3/main q3/main.c && ./q3/main"
